@@ -2,5 +2,15 @@
 <!DOCTYPE categories
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
 <categories>
-    <category id="wrs" name="Writerside documentation" order="1"/>
+    <category id="fundamentals" name="Computer Science Fundamentals" order="1"/>
+    <category id="languages" name="Programming Languages" order="2"/>
+    <category id="systems" name="Computer Systems" order="3"/>
+    <category id="development" name="Software Development" order="4"/>
+    <category id="web" name="Web Development" order="5"/>
+    <category id="architecture" name="System Design & Architecture" order="6"/>
+    <category id="devops" name="DevOps & Infrastructure" order="7"/>
+    <category id="advanced" name="Advanced Topics" order="8"/>
+    <category id="career" name="Professional Development" order="9"/>
+    <category id="industry" name="Industry Practices" order="10"/>
+    <category id="specialized" name="Specialized Domains" order="11"/>
 </categories>

@@ -3,10 +3,34 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <primary-color>#1a365d</primary-color>
+        <custom-css>ef-styles.css</custom-css>
+        <logo>images/ef-logo.svg</logo>
+        <favicon>images/favicon.svg</favicon>
+        <apple-touch-icon>images/apple-touch-icon.svg</apple-touch-icon>
+        <banner-image>images/ef-banner.svg</banner-image>
+        <footer-copyright>© 2024 Engineering Foundations. Combating brain rot through comprehensive software engineering education.</footer-copyright>
+        <enable-blog-mode>true</enable-blog-mode>
+        <show-breadcrumbs>true</show-breadcrumbs>
+        <enable-github-link>true</enable-github-link>
+    </variables>
+
     <build-profile instance="ef">
         <variables>
             <noindex-content>false</noindex-content>
+            <product-web-url>https://engineeringfoundations.github.io</product-web-url>
+            <enable-search>true</enable-search>
+            <web-file-name>index.html</web-file-name>
+            <enable-feedback>true</enable-feedback>
+            <enable-edit-page>true</enable-edit-page>
+            <github-repository>engineeringfoundations/engineeringfoundations.github.io</github-repository>
+            <github-branch>main</github-branch>
+            <enable-contributors>true</enable-contributors>
+            <enable-last-modified>true</enable-last-modified>
+            <enable-article-navigation>true</enable-article-navigation>
+            <reading-time-estimation>true</reading-time-estimation>
+            <table-of-contents>floating</table-of-contents>
         </variables>
     </build-profile>
 

@@ -4,7 +4,105 @@
 
 <instance-profile id="ef"
                  name="Engineering Foundations"
-                 start-page="About.md">
+                 start-page="Home.md"
+                 status="release">
 
-    <toc-element topic="About.md"/>
+    <snippet id="main-description">
+        Comprehensive software engineering education to combat brain rot. Deep, long-form content covering everything from fundamentals to advanced topics.
+    </snippet>
+
+    <toc-element topic="Home.md"/>
+
+    <toc-element toc-title="Part 1: Computer Science Fundamentals">
+        <toc-element topic="Programming-Basics.md"/>
+        <toc-element topic="How-Computers-Work.md"/>
+        <toc-element topic="Data-Structures-Algorithms.md"/>
+        <toc-element topic="Mathematics-for-Engineers.md"/>
+        <toc-element topic="Asymptotic-Notation-Complexity.md"/>
+        <toc-element topic="Advanced-Problem-Solving-Patterns.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 2: Programming Languages">
+        <toc-element topic="Python.md"/>
+        <toc-element topic="JavaScript-TypeScript.md"/>
+        <toc-element topic="Java.md"/>
+        <toc-element topic="Go.md"/>
+        <toc-element topic="Rust.md"/>
+        <toc-element topic="SQL.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 3: Computer Systems">
+        <toc-element topic="Computer-Architecture.md"/>
+        <toc-element topic="Operating-Systems.md"/>
+        <toc-element topic="Networking-Fundamentals.md"/>
+        <toc-element topic="Security-Fundamentals.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 4: Software Development">
+        <toc-element topic="Clean-Code-Refactoring.md"/>
+        <toc-element topic="Object-Oriented-Programming.md"/>
+        <toc-element topic="Functional-Programming.md"/>
+        <toc-element topic="Software-Design-Patterns.md"/>
+        <toc-element topic="Testing-Quality-Assurance.md"/>
+        <toc-element topic="Code-Review-Best-Practices.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 5: Web Development">
+        <toc-element topic="Frontend-Frameworks.md"/>
+        <toc-element topic="Backend-Development.md"/>
+        <toc-element topic="REST-GraphQL-APIs.md"/>
+        <toc-element topic="Web-Security.md"/>
+        <toc-element topic="Performance-Optimization.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 6: System Design & Architecture">
+        <toc-element topic="System-Design-Fundamentals.md"/>
+        <toc-element topic="Database-Design.md"/>
+        <toc-element topic="Scalability-Performance.md"/>
+        <toc-element topic="Distributed-Systems.md"/>
+        <toc-element topic="Microservices-Architecture.md"/>
+        <toc-element topic="Message-Queues-Event-Streaming.md"/>
+        <toc-element topic="Cloud-Design-Patterns.md"/>
+        <toc-element topic="Performance-Anti-Patterns.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 7: DevOps & Infrastructure">
+        <toc-element topic="Version-Control-Git.md"/>
+        <toc-element topic="CI-CD-Pipelines.md"/>
+        <toc-element topic="Docker-Containerization.md"/>
+        <toc-element topic="Cloud-Platforms.md"/>
+        <toc-element topic="Monitoring-Observability.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 8: Advanced Topics">
+        <toc-element topic="Advanced-Algorithms.md"/>
+        <toc-element topic="Complexity-Classes.md"/>
+        <toc-element topic="Advanced-System-Design.md"/>
+        <toc-element topic="Software-Architecture.md"/>
+        <toc-element topic="Enterprise-Integration-Patterns.md"/>
+        <toc-element topic="Architecture-Decision-Making.md"/>
+        <toc-element topic="Requirements-Engineering.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 9: Professional Development">
+        <toc-element topic="Junior-to-Mid-Level.md"/>
+        <toc-element topic="Mid-to-Senior-Level.md"/>
+        <toc-element topic="Technical-Leadership.md"/>
+        <toc-element topic="Interview-Preparation.md"/>
+        <toc-element topic="Building-Portfolio.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 10: Industry Practices">
+        <toc-element topic="Agile-Methodologies.md"/>
+        <toc-element topic="Documentation-Standards.md"/>
+        <toc-element topic="Open-Source-Contribution.md"/>
+        <toc-element topic="Technical-Communication.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Part 11: Specialized Domains">
+        <toc-element topic="Data-Engineering-Fundamentals.md"/>
+        <toc-element topic="Enterprise-Software-Integration.md"/>
+        <toc-element topic="Business-Process-Management.md"/>
+        <toc-element topic="Compliance-Standards.md"/>
+    </toc-element>
 </instance-profile>
