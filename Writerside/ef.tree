@@ -14,6 +14,7 @@
     <toc-element topic="Home.md"/>
 
     <toc-element toc-title="Part 1: Computer Science Fundamentals">
+        <toc-element topic="Computer-Science-Fundamentals.md"/>
         <toc-element topic="Programming-Basics.md"/>
         <toc-element topic="How-Computers-Work.md"/>
         <toc-element topic="Data-Structures-Algorithms.md"/>
@@ -55,7 +56,7 @@
         <toc-element topic="Performance-Optimization.md"/>
     </toc-element>
 
-    <toc-element toc-title="Part 6: System Design & Architecture">
+    <toc-element toc-title="Part 6: System Design &amp; Architecture">
         <toc-element topic="System-Design-Fundamentals.md"/>
         <toc-element topic="Database-Design.md"/>
         <toc-element topic="Scalability-Performance.md"/>
@@ -66,7 +67,7 @@
         <toc-element topic="Performance-Anti-Patterns.md"/>
     </toc-element>
 
-    <toc-element toc-title="Part 7: DevOps & Infrastructure">
+    <toc-element toc-title="Part 7: DevOps &amp; Infrastructure">
         <toc-element topic="Version-Control-Git.md"/>
         <toc-element topic="CI-CD-Pipelines.md"/>
         <toc-element topic="Docker-Containerization.md"/>
